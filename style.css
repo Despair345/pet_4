@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e5e5
+}
+.card{
+    width: 370px;
+    height: 502px;
+    box-shadow: 0px 4px 8px 0px #00000017;
+    border-radius: 5px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.sale{
+    position: absolute;
+    top: 18px;
+    left: 5px;
+    background-color: #CE3535;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 9px 20px 7px;
+}
+.card_image img{
+    width: 100%;
+    object-fit: cover;
+}
+.card-title{
+    color: #222222;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    font-style: bold;
+    line-height: 1.6;
+    margin-top: 40px;
+    width: 100%;
+} 
+.card-title:hover{
+    text-decoration: underline;
+}  
+.card-price{
+    width: 100%;
+    text-align: right;
+}
+.card-price-old{
+    color: #5A5A5A;
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: line-through;
+    margin: 20px 0 10px;
+}
+.card-price-new{
+    color: #CE3535;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+}
+.card-btn{
+    width: 100%;
+    background-color: #E20000;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card-btn img{
+    object-fit: contain;
+    margin-right: 10px;
+}
